@@ -191,15 +191,15 @@ pre[class*=language-].line-numbers > code {
     text-align: right
 }
 
-.token.cr, .token.lf, .token.space, .token.tab:not(:empty) {
+/* .token.cr, .token.lf, .token.space, .token.tab:not(:empty) {
     position: relative
-}
+} */
 
-.token.cr:before, .token.lf:before, .token.space:before, .token.tab:not(:empty):before {
+/* .token.cr:before, .token.lf:before, .token.space:before, .token.tab:not(:empty):before {
     color: grey;
     opacity: .6;
     position: absolute
-}
+} */
 
 .token.tab:not(:empty):before {
     content: '\21E5'
@@ -217,9 +217,9 @@ pre[class*=language-].line-numbers > code {
     content: '\240A'
 }
 
-.token.space:before {
+/* .token.space:before {
     content: '\00B7'
-}
+} */
 
 .token a {
     color: inherit
